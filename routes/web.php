@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/employee','EmployeeController');
+Route::resource('/employee', 'EmployeeController');
+
+Route::get('/student', 'StudentController@index');
+Route::post('/studentadd', 'StudentController@savedata');
+Route::put('/studentupdate/{id}', 'StudentController@updatedata');

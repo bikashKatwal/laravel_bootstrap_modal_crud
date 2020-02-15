@@ -131,7 +131,7 @@
                 {{method_field('DELETE')}}
                 <div class="modal-body">
 
-                    <input type="hidden" name="_method" value="DELETE" />
+                    <input type="hidden" name="_method" value="DELETE"/>
                     <p>Are you sure? You want to delete data.</p>
                 </div>
                 <div class="modal-footer">
